@@ -1,0 +1,204 @@
+    /* Paleta de cores vintage */
+    :root {
+        --background-color: #f8f1e5;
+        --primary-color: #c49b66;
+        --secondary-color: #8d6748;
+        --text-color: #5c3a27;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        scroll-behavior: smooth;
+        padding-top: 56px; /* Ajuste para a altura da navbar fixa */
+    }
+
+    /* Títulos */
+    h1, h2, h3 {
+        color: var(--text-color);
+    }
+
+    /* Lista */
+    li {
+        color: var(--text-color);
+    }
+
+    /* Header */
+    header p {
+        color: var(--secondary-color);
+    }
+    
+
+    /* Imagens */
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    /* Navbar */
+    .navbar {
+        background-color: #f8f9fa; /* Cor de fundo da navbar */
+        z-index: 1030; /* Certifique-se de que a navbar esteja acima de outros conteúdos */
+    }
+
+    .navbar-brand {
+        color: #4e3a2e; /* Cor do texto da marca */
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        color: #4e3a2e; /* Cor dos links */
+        font-weight: 500;
+    }
+
+    /* Estiliza os links quando estiverem ativos ou em foco */
+    .nav-link:hover,
+    .nav-link:focus {
+        color: #3c2d22; /* Tom um pouco mais escuro para hover/foco */
+    }
+
+
+    /* Hero Section */
+    .hero {
+        background: url('img/image.png') no-repeat center center/cover;
+        padding: 100px 0;
+        color: #fff;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+    }
+
+    /* Produtos */
+    .produtos h2 {
+        color: var(--secondary-color);
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .produto-card {
+        border: none;
+        background-color: var(--background-color);
+    }
+
+    .produto-card img {
+        border-radius: 10px;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    /* Feedbacks */
+    .feedbacks h2 {
+        color: var(--secondary-color);
+        margin-bottom: 2rem;
+    }
+
+    .feedback-card {
+        background-color: var(--background-color);
+        border: 1px solid var(--primary-color);
+        padding: 20px;
+        width: 70%;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: var(--secondary-color);
+        border-radius: 50%;
+    }
+
+    /* Parcerias */
+    .parcerias h5 {
+        color: var(--secondary-color);
+        font-weight: bold;
+    }
+
+    .parcerias-card {
+        border: none;
+        padding: 20px;
+        background-color: var(--background-color);
+    }
+
+    /* História */
+    .historia h2 {
+        color: var(--secondary-color);
+        font-size: 2rem;
+    }
+
+    .historia p {
+        font-size: 1.2rem;
+    }
+
+    /* Footer */
+    .footer {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 2rem 0;
+    }
+
+    .footer p {
+        margin: 0.5rem 0;
+    }
+
+    .social-icons {
+        margin-top: 1rem;
+    }
+
+    .social-icons a {
+        color: white;
+        font-size: 2.0rem;
+        margin: 0 0.5rem;
+        transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+        color: #7f6646; /* Cor de destaque ao passar o mouse */
+    }
+
+   /* WhatsApp Icon */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para a transformação */
+}
+
+.whatsapp-icon img {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 50px;
+    border-radius: 50%;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% ao passar o mouse */
+}
+
+    /* Animações */
+    [data-aos] {
+        opacity: 0;
+        transition: opacity 0.3s, transform 0.3s;
+    }
+
+    [data-aos].aos-animate {
+        opacity: 1;
+    }
+
+    /* Estilo do botão de compra */
+    .btn-comprar {
+        background-color: var(--secondary-color);
+        color: white;
+        border: none;
+    }
+
+    .btn-comprar:hover {
+        background-color: var(--primary-color);
+    }

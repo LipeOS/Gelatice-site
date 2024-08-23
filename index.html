@@ -1,0 +1,242 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelatice - Sorvetes Gourmet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Gelatice</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#feedbacks">Feedbacks</a></li>
+            <li class="nav-item"><a class="nav-link" href="#historia">História</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <header class="hero text-center text-light" data-aos="fade-down">
+        <h1>Bem-vindo à Gelatice</h1>
+        <p>Sorvetes Gourmet com Sabor Incomparável</p>
+    </header>
+
+ <!-- Produtos -->
+<!-- Produtos -->
+<section id="produtos" class="produtos py-5" data-aos="fade-up">
+    <div class="container text-center">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card produto-card">
+                    <img src="img/1.png" class="card-img-top" alt="Sorvete Cacau 60%">
+                    <div class="card-body">
+                        <h5 class="card-title">Sorvete de Cacau 60%</h5>
+                        <p class="card-text">Intenso e cremoso, feito com cacau 60% para um sabor profundo e sofisticado.</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card produto-card">
+                    <img src="img/2.png" class="card-img-top" alt="Sorvete Chocolate Belga">
+                    <div class="card-body">
+                        <h5 class="card-title">Sorvete de Chocolate Belga</h5>
+                        <p class="card-text">Feito com o melhor chocolate belga para um sabor rico e inigualável.</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card produto-card">
+                    <img src="img/3.png" class="card-img-top" alt="Sorvete Trufa de Chocolate">
+                    <div class="card-body">
+                        <h5 class="card-title">Sorvete de Trufa de Chocolate</h5>
+                        <p class="card-text">Um deleite luxuoso com a riqueza das trufas de chocolate, ideal para ocasiões especiais.</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card produto-card">
+                    <img src="img/4.png" class="card-img-top" alt="Sorvete Chocolate com Avelãs">
+                    <div class="card-body">
+                        <h5 class="card-title">Sorvete de Chocolate com Avelãs</h5>
+                        <p class="card-text">Combinação perfeita de chocolate intenso com crocantes avelãs.</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card produto-card">
+                    <img src="img/5.png" class="card-img-top" alt="Sorvete Chocolate e Menta">
+                    <div class="card-body">
+                        <h5 class="card-title">Sorvete de Chocolate com Menta</h5>
+                        <p class="card-text">Sabor refrescante de menta misturado com chocolate cremoso para uma experiência revigorante.</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card produto-card">
+                    <img src="img/6.png" class="card-img-top" alt="Sorvete Chocolate com Caramelo">
+                    <div class="card-body">
+                        <h5 class="card-title">Sorvete de Chocolate com Caramelo</h5>
+                        <p class="card-text">Adoçado com um toque de caramelo, equilibrando o amargor do chocolate com doçura.</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Feedback dos Clientes -->
+    <section id="feedbacks" class="feedbacks py-5" data-aos="fade-up">
+        <div class="container">
+        <h2 class="text-center"><strong>O que nossos clientes dizem</strong></h2>
+        <div id="carouselFeedbacks" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                <div class="card feedback-card">
+                    <div class="card-body">
+                    <p class="card-text">"O melhor sorvete gourmet que já provei! Avelã é divino!"</p>
+                    <h5 class="card-title">- Maria Souza</h5>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                <div class="card feedback-card">
+                    <div class="card-body">
+                    <p class="card-text">"Experiência incrível! Atendimento e qualidade perfeitos."</p>
+                    <h5 class="card-title">- João Silva</h5>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselFeedbacks" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFeedbacks" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+        </div>
+    </section>
+
+  <!-- Franquia e Supermercados -->
+<section id="parcerias" class="parcerias py-5" data-aos="fade-up">
+    <div class="container text-center">
+        <div class="row">
+            <!-- Franqueado -->
+            <div class="col-md-6 mb-4">
+                <div class="card parcerias-card shadow">
+                    <div class="card-body">
+                        <h3 class="card-title"><strong>Seja um Franqueado Gelatice</strong></h3>
+                        <p class="card-text">Ao se tornar um franqueado Gelatice, você se une a uma marca renomada no setor de sorvetes gourmet. Nossas franquias oferecem:</p>
+                        <ul class="list-unstyled">
+                            <li><strong>Reconhecimento de Marca:</strong> Beneficie-se do prestígio e da popularidade da Gelatice.</li>
+                            <li><strong>Treinamento Completo:</strong> Receba formação especializada sobre nossos produtos e processos.</li>
+                            <li><strong>Suporte Contínuo:</strong> Acesse suporte operacional e marketing contínuo para garantir o sucesso do seu negócio.</li>
+                            <li><strong>Inovação Constante:</strong> Fique por dentro das últimas novidades e inovações em produtos e técnicas.</li>
+                        </ul>
+                        <p class="card-text">Clique abaixo para descobrir como iniciar sua jornada com a Gelatice e aproveitar todas as vantagens que oferecemos.</p>
+                        <a href="#footer" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produtos no Supermercado -->
+            <div class="col-md-6 mb-4">
+                <div class="card parcerias-card shadow">
+                    <div class="card-body">
+                        <h3 class="card-title"><strong>Gelatice no Seu Supermercado</strong></h3>
+                        <p class="card-text">Interessado em oferecer Gelatice em seu supermercado? Ao adicionar nossos produtos ao seu portfólio:</p>
+                        <ul class="list-unstyled">
+                            <li><strong>Produtos Premium:</strong> Sorvetes gourmet de alta qualidade que atraem clientes exigentes.</li>
+                            <li><strong>Suporte de Marketing:</strong> Materiais promocionais e campanhas para ajudar a impulsionar as vendas.</li>
+                            <li><strong>Logística Eficiente:</strong> Um sistema de distribuição confiável que garante a entrega pontual e a qualidade do produto.</li>
+                            <li><strong>Relacionamento Direto:</strong> Comunicação direta com nossa equipe para resolver rapidamente qualquer questão.</li>
+                        </ul>
+                        <p class="card-text">Clique abaixo para saber como incluir Gelatice em seu mix de produtos e oferecer aos seus clientes uma experiência deliciosa e exclusiva.</p>
+                        <a href="#footer" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   <!-- História -->
+    <div id="id ">
+        <section id="historia" class="historia py-5" data-aos="fade-up">
+    <div class="container">
+        <h2 style="text-align: center; padding: 10px" class="section-title"><strong>Nossa História</strong></h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="img/frente.png" alt="Nossa Empresa" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-6">
+                <p id="id-p">A Gelatice nasceu com a missão de oferecer sorvetes gourmet de altíssima qualidade, feitos com os melhores
+                    ingredientes. Nossa paixão por sorvetes artesanais nos move desde o primeiro dia, criando experiências
+                    únicas e sabores inesquecíveis para os nossos clientes.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    </div>
+
+
+<!-- Footer -->
+<footer id="footer" class="footer text-center">
+    <div class="container">
+        <p>&copy; 2024 Gelatice. Todos os direitos reservados.</p>
+        <p>Endereço: Rua dos Sorvetes, 123 - São Paulo, SP</p>
+        <p>Email: <a href="mailto:contato@gelatice.com">contato@gelatice.com</a></p>
+        <div class="social-icons">
+            <a href="https://facebook.com/gelatice" class="mr-3"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/gelatice" class="mr-3"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/gelatice"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp Icon -->
+<a href="https://wa.me/seunumerowhatsapp" class="whatsapp-icon" aria-label="WhatsApp">
+    <img src="img/v (1).png" alt="WhatsApp">
+</a>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
